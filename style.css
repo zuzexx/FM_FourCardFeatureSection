@@ -60,10 +60,10 @@ section{
 .calculator{
     box-shadow:7px 6px 9px 0px hsl(229, 6%, 66%), 0px -6px 2px 0px hsl(212, 86%, 64%);
 }
-/*img{
+img{
     margin-top:20px;
     margin-left: 58vw;
-}*/
+}
 @media screen and (min-width: 780px) {
     h1{
         font-size: 30px;
@@ -99,6 +99,6 @@ section{
     }
     img{
         margin-left: 18vw;
-        margin-top: 5vh;
+        margin-top: 40px;
     }
   }
