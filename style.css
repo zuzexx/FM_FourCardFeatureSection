@@ -9,7 +9,7 @@ body{
 h1{
     font-weight: 400;
     color:hsl(229, 6%, 66%);
-    margin-bottom: -20px;
+    margin-bottom: -25px;
     margin-top: 30px;
     font-size: 25px;
 }
@@ -17,6 +17,7 @@ h2{
     font-weight: 600;
     color:hsl(234, 12%, 34%);
     font-size: 25px;
+    margin-bottom: -15px;
 }
 p{
     font-weight:200;
@@ -59,7 +60,45 @@ section{
 .calculator{
     box-shadow:7px 6px 9px 0px hsl(229, 6%, 66%), 0px -6px 2px 0px hsl(212, 86%, 64%);
 }
-img{
+/*img{
     margin-top:20px;
     margin-left: 58vw;
-}
+}*/
+@media screen and (min-width: 780px) {
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    section{
+        width:25vw;
+        height: 27vh;
+    }
+    h3{margin-left: 20px;}
+    section p{
+        width: 20vw;
+        margin-left: 20px;
+    }
+    div{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 50px;
+    }
+    .supervisor{
+        grid-area:2/1/4/2;
+    }
+    .team{
+        grid-area: 1/2/3/3;
+    }
+    .karma{
+        grid-area: 3/2/5/3;
+    }
+    .calculator{
+        grid-area:2/3/4/4;
+    }
+    img{
+        margin-left: 18vw;
+        margin-top: 5vh;
+    }
+  }
