@@ -113,7 +113,8 @@ section h3 {
   color: hsl(234deg, 12%, 34%);
   font-size: 1.1rem;
   font-weight: 600;
-  margin: 1.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1.7rem;
 }
 section h3:hover {
   cursor: pointer;
@@ -125,12 +126,13 @@ section p {
   color: hsl(229deg, 6%, 66%);
   font-size: 0.9rem;
   font-weight: 200;
-  margin: 2rem;
+  margin-left: 1.5rem;
 }
 section img {
   height: 57px;
   float: right;
   margin-right: 1.5rem;
+  margin-top: 1rem;
 }
 section img:hover {
   -webkit-animation: bop 0.7s linear;

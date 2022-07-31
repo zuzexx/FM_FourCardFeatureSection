@@ -44,7 +44,8 @@ section{
         color:$very-dark-blue;
         font-size: 1.1rem;
         font-weight: $bold;
-        margin: 1.5rem;
+        margin-left: 1.5rem;
+        margin-top:1.7rem;
         &:hover{
             cursor: pointer;
             color: $very-light-blue;
@@ -56,13 +57,14 @@ section{
         color: $grayish-blue;
         font-size: 0.9rem;
         font-weight: $thin;
+        margin-left: 1.5rem;
         
-        margin: 2rem;
     }
     img{
         height: 57px;
         float: right;
         margin-right: 1.5rem;
+        margin-top: 1rem;
 
         &:hover{
             animation: bop 0.7s linear;
