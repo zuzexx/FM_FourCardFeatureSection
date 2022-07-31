@@ -76,14 +76,17 @@ section{
     100%{transform: scale(0.9)};
 }
 #supervisor{
-    box-shadow:7px 6px 9px 0px hsl(229, 6%, 66%), 0px -6px 2px 0px hsl(180, 62%, 55%);
+    border-top:4px solid $cyan;
 }
 #team-builder{
-    box-shadow:7px 6px 9px 0px hsl(229, 6%, 66%), 0px -6px 2px 0px hsl(0, 78%, 62%);
+    border-top:4px solid $red;
+    
 }
 #karma{
-    box-shadow:7px 6px 9px 0px hsl(229, 6%, 66%), 0px -6px 2px 0px hsl(34, 97%, 64%);
+    border-top:4px solid $orange;
+   
 }
 #calculator{
-    box-shadow:7px 6px 9px 0px hsl(229, 6%, 66%), 0px -6px 2px 0px hsl(212, 86%, 64%);
+    border-top:4px solid $blue;
+    
 }
