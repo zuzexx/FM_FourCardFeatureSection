@@ -23,9 +23,17 @@ section{
     border-radius: 10px;
 
     margin-top: 2rem;
-    -webkit-box-shadow: 10px 10px 20px 1px rgba(163,165,174,0.34);
-    -moz-box-shadow: 10px 10px 20px 1px rgba(163,165,174,0.34);
-    box-shadow: 10px 10px 20px 1px rgba(163,165,174,0.34);
+    -webkit-box-shadow: 10px 10px 20px 1px rgba(163,165,174,0.1);
+    -moz-box-shadow: 10px 10px 20px 1px rgba(163,165,174,0.1);
+    box-shadow: 10px 10px 20px 1px rgba(163,165,174,0.1);
+
+    &:hover{
+        cursor: pointer;
+        color: $very-light-blue;
+        background-color: $very-dark-blue;
+        transform: scale(1.05);
+    }
+    
     @include desktop(){
         width: 350px;
         height: 250px;
@@ -37,6 +45,12 @@ section{
         font-size: 1.1rem;
         font-weight: $bold;
         padding: 1.5rem;
+        &:hover{
+            cursor: pointer;
+            color: $very-light-blue;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
     }
     p{
         color: $grayish-blue;
@@ -49,7 +63,17 @@ section{
         height: 57px;
         float: right;
         margin-right: 1.5rem;
+
+        &:hover{
+            animation: bop 0.7s linear;
+            animation-iteration-count: infinite;
+            cursor: pointer;
+        }
     }
+}
+@keyframes bop{
+    0%{transform: scale(1)};
+    100%{transform: scale(0.9)};
 }
 #supervisor{
     box-shadow:7px 6px 9px 0px hsl(229, 6%, 66%), 0px -6px 2px 0px hsl(180, 62%, 55%);
