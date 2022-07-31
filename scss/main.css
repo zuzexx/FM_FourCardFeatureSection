@@ -8,30 +8,81 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
+  /*@include desktop(){
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }*/
 }
 
 #main-container {
   width: 311px;
+  margin: auto;
+}
+@media (min-width: 1200px) {
+  #main-container {
+    width: 1110px;
+  }
 }
 
 #text {
   text-align: center;
+}
+@media (min-width: 1200px) {
+  #text {
+    width: 540px;
+    margin: auto;
+  }
 }
 #text h1 {
   font-size: 1.4rem;
   font-weight: 200;
   color: hsl(234deg, 12%, 34%);
 }
+@media (min-width: 1200px) {
+  #text h1 {
+    font-size: 2rem;
+  }
+}
 #text h2 {
   font-weight: 600;
   color: hsl(234deg, 12%, 34%);
-  font-weight: 1rem;
+  font-size: 1rem;
   margin-top: -10px;
+}
+@media (min-width: 1200px) {
+  #text h2 {
+    font-size: 2rem;
+  }
 }
 #text p {
   font-weight: 400;
   color: hsl(229deg, 6%, 66%);
   font-size: 0.95rem;
+}
+@media (min-width: 1200px) {
+  #text p {
+    font-size: 1.1rem;
+  }
+}
+
+#sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+}
+@media (min-width: 1200px) {
+  #sections {
+    flex-direction: row;
+    width: 1110px;
+    height: 530px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5rem;
+  }
 }
 
 section {
@@ -40,6 +91,13 @@ section {
   border-radius: 15px;
   margin-top: 2rem;
   box-shadow: 10px 10px 20px 1px rgba(163, 165, 174, 0.34);
+}
+@media (min-width: 1200px) {
+  section {
+    width: 350px;
+    height: 250px;
+    margin-left: 2rem;
+  }
 }
 section h3 {
   color: hsl(234deg, 12%, 34%);

@@ -1,20 +1,41 @@
 
+@mixin desktop(){
+    @media(min-width:$desktop){
+        @content;
+    }
+}
+
 #text{
     text-align: center;
+    
+    @include desktop(){
+        width: 540px;
+        
+        margin: auto;
+    }
     h1{
         font-size: 1.4rem;
         font-weight: $thin;
         color: $very-dark-blue;
+        @include desktop(){
+            font-size: 2rem;
+        }
     }
     h2{
         font-weight: $bold;
         color: $very-dark-blue;
-        font-weight: 1rem;
+        font-size: 1rem;
         margin-top: -10px;
+        @include desktop(){
+            font-size: 2rem;
+        }
     }
     p{
         font-weight: $medium;
         color: $grayish-blue;
         font-size: 0.95rem;
+        @include desktop(){
+            font-size: 1.1rem;
+        }
     }
 }

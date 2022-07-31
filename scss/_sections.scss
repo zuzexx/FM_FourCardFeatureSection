@@ -1,5 +1,22 @@
-
-
+@mixin desktop(){
+    @media(min-width:$desktop){
+        @content;
+    }
+}
+#sections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: auto;
+    @include desktop(){
+        flex-direction: row;
+        width: 1110px;
+        height: 530px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3.5rem;
+}}
 section{
     width: 311px;
     height: 222px;
@@ -9,6 +26,11 @@ section{
     -webkit-box-shadow: 10px 10px 20px 1px rgba(163,165,174,0.34);
     -moz-box-shadow: 10px 10px 20px 1px rgba(163,165,174,0.34);
     box-shadow: 10px 10px 20px 1px rgba(163,165,174,0.34);
+    @include desktop(){
+        width: 350px;
+        height: 250px;
+        margin-left: 2rem;
+    }
 
     h3{
         color:$very-dark-blue;

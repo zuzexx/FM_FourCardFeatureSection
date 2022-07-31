@@ -2,7 +2,11 @@
 *{
     box-sizing: border-box;
 }
-
+@mixin desktop(){
+    @media(min-width:$desktop){
+        @content;
+    }
+}
 body{
     
     display: flex;
@@ -10,8 +14,19 @@ body{
     align-items: center;
     justify-content: center;
     font-family: $font-family;
+
+    /*@include desktop(){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }*/
 }
 
 #main-container{
     width: 311px;
+    margin: auto;
+    @include desktop(){
+        width: 1110px;
+    }
 }
