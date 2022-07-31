@@ -71,6 +71,9 @@ section{
             animation-iteration-count: infinite;
             cursor: pointer;
         }
+        @include desktop(){
+            height: 64px;
+        }
     }
 }
 @keyframes bop{

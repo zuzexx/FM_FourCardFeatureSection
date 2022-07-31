@@ -141,6 +141,11 @@ section img:hover {
           animation-iteration-count: infinite;
   cursor: pointer;
 }
+@media (min-width: 1200px) {
+  section img {
+    height: 64px;
+  }
+}
 
 @-webkit-keyframes bop {
   0% {
