@@ -122,6 +122,11 @@ section h3:hover {
   text-transform: uppercase;
   text-decoration: underline;
 }
+@media (min-width: 1200px) {
+  section h3 {
+    font-size: 1.3rem;
+  }
+}
 section p {
   color: hsl(229deg, 6%, 66%);
   font-size: 0.9rem;

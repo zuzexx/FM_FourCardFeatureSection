@@ -52,6 +52,9 @@ section{
             text-transform: uppercase;
             text-decoration: underline;
         }
+        @include desktop(){
+            font-size: 1.3rem;
+        }
     }
     p{
         color: $grayish-blue;
