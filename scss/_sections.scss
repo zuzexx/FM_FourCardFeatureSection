@@ -1,0 +1,43 @@
+
+
+section{
+    width: 311px;
+    height: 222px;
+    border-radius: 15px;
+
+    margin-top: 2rem;
+    -webkit-box-shadow: 10px 10px 20px 1px rgba(163,165,174,0.34);
+    -moz-box-shadow: 10px 10px 20px 1px rgba(163,165,174,0.34);
+    box-shadow: 10px 10px 20px 1px rgba(163,165,174,0.34);
+
+    h3{
+        color:$very-dark-blue;
+        font-size: 1.1rem;
+        font-weight: $bold;
+        padding: 1.5rem;
+    }
+    p{
+        color: $grayish-blue;
+        font-size: 0.9rem;
+        font-weight: $thin;
+        padding:1.5rem;
+        margin-top: -3rem;
+    }
+    img{
+        height: 57px;
+        float: right;
+        margin-right: 1.5rem;
+    }
+}
+#supervisor{
+    box-shadow:7px 6px 9px 0px hsl(229, 6%, 66%), 0px -6px 2px 0px hsl(180, 62%, 55%);
+}
+#team-builder{
+    box-shadow:7px 6px 9px 0px hsl(229, 6%, 66%), 0px -6px 2px 0px hsl(0, 78%, 62%);
+}
+#karma{
+    box-shadow:7px 6px 9px 0px hsl(229, 6%, 66%), 0px -6px 2px 0px hsl(34, 97%, 64%);
+}
+#calculator{
+    box-shadow:7px 6px 9px 0px hsl(229, 6%, 66%), 0px -6px 2px 0px hsl(212, 86%, 64%);
+}

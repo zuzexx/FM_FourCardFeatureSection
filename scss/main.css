@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#main-container {
+  width: 311px;
+}
+
+#text {
+  text-align: center;
+}
+#text h1 {
+  font-size: 1.4rem;
+  font-weight: 200;
+  color: hsl(234deg, 12%, 34%);
+}
+#text h2 {
+  font-weight: 600;
+  color: hsl(234deg, 12%, 34%);
+  font-weight: 1rem;
+  margin-top: -10px;
+}
+#text p {
+  font-weight: 400;
+  color: hsl(229deg, 6%, 66%);
+  font-size: 0.95rem;
+}
+
+section {
+  width: 311px;
+  height: 222px;
+  border-radius: 15px;
+  margin-top: 2rem;
+  box-shadow: 10px 10px 20px 1px rgba(163, 165, 174, 0.34);
+}
+section h3 {
+  color: hsl(234deg, 12%, 34%);
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 1.5rem;
+}
+section p {
+  color: hsl(229deg, 6%, 66%);
+  font-size: 0.9rem;
+  font-weight: 200;
+  padding: 1.5rem;
+  margin-top: -3rem;
+}
+section img {
+  height: 57px;
+  float: right;
+  margin-right: 1.5rem;
+}
+
+#supervisor {
+  box-shadow: 7px 6px 9px 0px hsl(229deg, 6%, 66%), 0px -6px 2px 0px hsl(180deg, 62%, 55%);
+}
+
+#team-builder {
+  box-shadow: 7px 6px 9px 0px hsl(229deg, 6%, 66%), 0px -6px 2px 0px hsl(0deg, 78%, 62%);
+}
+
+#karma {
+  box-shadow: 7px 6px 9px 0px hsl(229deg, 6%, 66%), 0px -6px 2px 0px hsl(34deg, 97%, 64%);
+}
+
+#calculator {
+  box-shadow: 7px 6px 9px 0px hsl(229deg, 6%, 66%), 0px -6px 2px 0px hsl(212deg, 86%, 64%);
+}/*# sourceMappingURL=main.css.map */
