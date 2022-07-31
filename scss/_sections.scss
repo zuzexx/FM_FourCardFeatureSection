@@ -44,7 +44,7 @@ section{
         color:$very-dark-blue;
         font-size: 1.1rem;
         font-weight: $bold;
-        padding: 1.5rem;
+        margin: 1.5rem;
         &:hover{
             cursor: pointer;
             color: $very-light-blue;
@@ -56,8 +56,8 @@ section{
         color: $grayish-blue;
         font-size: 0.9rem;
         font-weight: $thin;
-        padding:1.5rem;
-        margin-top: -3rem;
+        
+        margin: 2rem;
     }
     img{
         height: 57px;
