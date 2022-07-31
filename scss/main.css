@@ -23,6 +23,7 @@ body {
 @media (min-width: 1200px) {
   #main-container {
     width: 1110px;
+    margin-top: 3rem;
   }
 }
 
@@ -88,7 +89,7 @@ body {
 section {
   width: 311px;
   height: 222px;
-  border-radius: 15px;
+  border-radius: 10px;
   margin-top: 2rem;
   box-shadow: 10px 10px 20px 1px rgba(163, 165, 174, 0.34);
 }
