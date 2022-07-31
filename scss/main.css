@@ -23,7 +23,7 @@ body {
 @media (min-width: 1200px) {
   #main-container {
     width: 1110px;
-    margin-top: 4rem;
+    margin-top: 5rem;
   }
 }
 
@@ -66,6 +66,7 @@ body {
 @media (min-width: 1200px) {
   #text p {
     font-size: 1.1rem;
+    margin-top: -1rem;
   }
 }
 
@@ -83,7 +84,7 @@ body {
     height: 530px;
     align-items: center;
     justify-content: center;
-    margin-top: 3.5rem;
+    margin-top: 3rem;
   }
 }
 
